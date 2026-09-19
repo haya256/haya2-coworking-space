@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>はやつ～のコワーキングスペースプロジェクト | haya2's Coworking Space Project</title>
+<meta name="description" content="はやつ～のコワーキングスペースプロジェクトの公式サイトです。現在は正式オープン前の準備中。まずは、もくもくルーム（もクもコ）によるオンラインコワーキングを不定期に開催していきます。">
+<meta property="og:title" content="はやつ～のコワーキングスペースプロジェクト">
+<meta property="og:description" content="正式オープン前の準備中です。まずはオンラインコワーキングスペースから。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://haya256.github.io/haya2-coworking-space/assets/readme-screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --surface: #ffffff;
+    --text: #2b2622;
+    --muted: #6f665d;
+    --accent: #c2603a;
+    --accent-soft: #f4e3da;
+    --line: #e7dfd4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1d1a17;
+      --surface: #27231f;
+      --text: #f0ebe4;
+      --muted: #a89f94;
+      --accent: #e08a62;
+      --accent-soft: #3a2b23;
+      --line: #3a342e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+    line-height: 1.85;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 72px 0 48px; text-align: center; }
+  .badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+  h1 { margin: 20px 0 6px; font-size: clamp(1.6rem, 6vw, 2.3rem); line-height: 1.4; }
+  .en { margin: 0; color: var(--muted); font-size: 0.95rem; letter-spacing: 0.04em; }
+  .lead { margin: 28px auto 0; max-width: 34em; }
+  .eyecatch { margin: 0 0 40px; }
+  .eyecatch img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+  .eyecatch figcaption { margin-top: 8px; text-align: center; color: var(--muted); font-size: 0.8rem; }
+  section { padding: 36px 0; border-top: 1px solid var(--line); }
+  h2 { margin: 0 0 16px; font-size: 1.2rem; }
+  p { margin: 0 0 1em; }
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .steps li {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .steps .label { display: block; color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; }
+  .steps .title { display: block; font-weight: 700; margin: 2px 0 4px; }
+  .steps .desc { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .steps .future { border-style: dashed; }
+  footer { padding: 32px 0 56px; text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="badge">準備中</span>
+    <h1>はやつ～の<br>コワーキングスペースプロジェクト</h1>
+    <p class="en">haya2's Coworking Space Project</p>
+    <p class="lead">ただいま、正式オープンに向けて準備をしています。作業（仕事、勉強など）とコミュニケーションのバランス調整にこだわった、そんな場所をつくっていきたいと思っています。</p>
+  </header>
+
+  <figure class="eyecatch">
+    <img src="assets/readme-screenshot.png" width="1280" height="755" alt="ドット絵の個室が並ぶもくもくルームと、参加者のチャットが表示されたオンラインコワーキングの画面">
+    <figcaption>オンラインもくもくルーム（もクもコ）の画面イメージ</figcaption>
+  </figure>
+
+  <section>
+    <h2>どんなスペースか</h2>
+    <p>それぞれが自分の作業に集中しながら、ゆるやかに同じ時間を過ごすことができる、コワーキングスペース。それがベースにあったうえで、ほどよい距離感でコミュニケーションすることもできる、そんな空間を目指しています。</p>
+    <p>まずはオンラインから始めます。</p>
+  </section>
+
+  <section>
+    <h2>これからの予定・夢</h2>
+    <ol class="steps">
+      <li>
+        <span class="label">STEP 1 ・ これから</span>
+        <span class="title">オンラインコワーキングスペース</span>
+        <p class="desc">独自開発のオンラインもくもく会で使えるセルフホスティング型の軽量チャット「もクもコ」を活用したもくもくルームをオープンしたり、いわゆる「Study with me」ライブ配信を不定期に行ったりしていきます。</p>
+      </li>
+      <li class="future">
+        <span class="label">STEP 2 ・ そのうち</span>
+        <span class="title">オフラインのもくもく会</span>
+        <p class="desc">レンタルスペースなど、一時的に借りられて、もくもく会を開いても差し支えない場所で、実際に集まるオフラインイベントとしてのもくもく会を開催できたらと考えています。</p>
+      </li>
+      <li class="future">
+        <span class="label">STEP 3 ・ いつか</span>
+        <span class="title">リアルなコワーキングスペース</span>
+        <p class="desc">ゆくゆくは、固定の場所を持った、リアルなコワーキングスペースを運営できたらいいなー。</p>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>開催のお知らせ</h2>
+    <p>現状はクローズドでテストしているケースが多いですが、今後公開のものもやっていければと思います。その時には、このページでもお知らせします。</p>
+  </section>
+
+  <footer>
+    &copy; haya2's Coworking Space Project
+  </footer>
+</div>
+</body>
+</html>
