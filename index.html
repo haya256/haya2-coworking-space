@@ -221,6 +221,18 @@
     background: var(--c-mustard); animation: blink 1.2s steps(1) infinite;
   }
 
+  .newsletter {
+    margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
+  }
+  .newsletter p { margin: 0; }
+  .newsletter .strong { margin-bottom: 4px; }
+  .newsletter .btn {
+    flex: none; display: inline-block; padding: 8px 20px; border: 3px solid var(--text); border-radius: 999px;
+    background: var(--c-mustard); color: var(--text); font-weight: 700; text-decoration: none;
+    box-shadow: 3px 3px 0 var(--text);
+  }
+  .newsletter .btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--text); }
+
   /* フッター */
   footer {
     padding: 32px 0 56px; border-top: 3px dashed var(--line);
@@ -373,6 +385,13 @@
         <p>一人だと集中が続かない…という方向けの、オンラインのもくもく会です。カメラ・マイクは不要で、テキストチャットで進捗を報告しながら、それぞれの作業を進めます。作業内容は自由、ブラウザが動くPCがあれば参加できます。</p>
         <p><a href="https://luma.com/z1ysndlf" target="_blank" rel="noopener">詳細・お申し込みはこちら（Luma）</a><span class="cursor" aria-hidden="true"></span></p>
       </div>
+    </div>
+    <div class="card newsletter">
+      <div>
+        <p class="strong">ニュースレター（週1回・無料）</p>
+        <p>もくもく会のお知らせや、スペースづくりの進み具合をメールでお届けします。</p>
+      </div>
+      <a class="btn" href="https://haya2coworking.substack.com/" target="_blank" rel="noopener">Substackで購読する</a>
     </div>
   </section>
 
